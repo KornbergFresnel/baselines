@@ -52,7 +52,7 @@ _game_envs['retro'] = {
 
 def train(args, extra_args):
     env_type, env_id = get_env_type(args)
-    print('env_type: {}'.format(env_type))
+    print('env_type: {}\nenv_id: {}'.format(env_type, env_id))
 
     total_timesteps = int(args.num_timesteps)
     seed = args.seed
